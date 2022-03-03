@@ -1,0 +1,2 @@
+"# Birinchi-ish" 
+"# Birinchi-ish" 
