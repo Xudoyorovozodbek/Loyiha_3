@@ -17,6 +17,13 @@ class Mixes(generics.RetrieveUpdateAPIView):
     queryset = Foydalanuvchi.objects.all()
 
 
+class Test(generics.RetrieveUpdateAPIView):
+    permission_classes = [permissions.IsAuthenticated,permissions.IsAuthenticated]
+    serializer_class = FoydalanuvchiSerializer
+    queryset = Foydalanuvchi.objects.all()
+
+
+
 
 
 
